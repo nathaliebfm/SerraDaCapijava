@@ -50,11 +50,11 @@ public class ProdutosModel {
 	private String foto; //Sem especificações 
 	
 	@ManyToOne
-	@JsonIgnoreProperties("produto")
+	@JsonIgnoreProperties("produtos")
 	private CategoriaModel categoria;
 	
 	@ManyToOne
-	@JsonIgnoreProperties("produto")
+	@JsonIgnoreProperties("produtos")
 	private UsuarioModel usuario;
 		
 	
