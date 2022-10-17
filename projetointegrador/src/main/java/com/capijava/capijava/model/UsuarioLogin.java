@@ -3,18 +3,52 @@ package com.capijava.capijava.model;
 public class UsuarioLogin {
 
 	private Long id;
+	private int cpf;
+	private int rg;
+	private int telefone;
+	private String endereco;
 	private String nome;
 	private String usuario;
 	private String foto;
 	private String senha;
 	private String token;
 	
-	public Long getid() {
-		return id;
-	}
+
 
 	public Long getId() {
 		return id;
+	}
+
+	public int getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(int cpf) {
+		this.cpf = cpf;
+	}
+
+	public int getRg() {
+		return rg;
+	}
+
+	public void setRg(int rg) {
+		this.rg = rg;
+	}
+
+	public int getTelefone() {
+		return telefone;
+	}
+
+	public void setTelefone(int telefone) {
+		this.telefone = telefone;
+	}
+
+	public String getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
 
 	public void setId(Long id) {

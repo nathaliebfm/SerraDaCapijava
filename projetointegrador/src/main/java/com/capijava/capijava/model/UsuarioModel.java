@@ -29,7 +29,7 @@ public class UsuarioModel {
     private String usuario;
     
     @NotBlank
-    @Size(min = 8, max = 20)
+    @Size(min = 8, message="A senha deve conter no mínimo 8 caracteres")
     private String senha;
     
     @NotBlank
