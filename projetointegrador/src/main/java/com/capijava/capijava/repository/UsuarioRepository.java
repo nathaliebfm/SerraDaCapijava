@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.capijava.capijava.model.UsuarioModel;
 
+
 @Repository
 public interface UsuarioRepository extends JpaRepository<UsuarioModel, Long>{
 	public Optional<UsuarioModel> findByUsuario(String usuario);
